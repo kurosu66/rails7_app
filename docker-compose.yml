@@ -3,7 +3,7 @@ services:
   db:
     image: postgres
     # dbのユーザー名とパスワードでこれが無いとdbが起動できなかった
-    environmentt:
+    environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: password
     # 無くても動くけど指定しておくとdocker-composeを停止してもdbの内容が永続化されるため、指定することが多いと思われる
