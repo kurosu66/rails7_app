@@ -8,8 +8,11 @@
   - username: <%= ENV["POSTGRES_USER"] %>
   - password: <%= ENV["POSTGRES_PASSWORD"] %>
 - 再度`$ docker compose build`
-  - →`Gemfile.lock`に追記される
 - `$ docker compose up -d`
+  - →`Gemfile.lock`に追記される
+  - webサービスとdbサービスが立ち上がり、`docker compose ps`で以下が確認できればOK
+<img width="1028" alt="image" src="https://github.com/kurosu66/rails7_app/assets/85793702/e0fdfd58-4aeb-4205-97de-92eae820e35f">
+
 - `$ docker compose run web rails db:create`
 - `localhost:3000`にアクセス
 
