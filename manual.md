@@ -12,3 +12,7 @@
 - `$ docker compose up -d`
 - `$ docker compose run web rails db:create`
 - `localhost:3000`にアクセス
+
+
+## 以下エラーには、downしてbuildしてup
+<img width="1353" alt="image" src="https://github.com/kurosu66/rails7_app/assets/111398600/c3ec95ee-3a2a-4e30-aa4e-e2fce13e26c1">
