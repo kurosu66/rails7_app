@@ -1,6 +1,6 @@
 # 手順
 
-- `$ docker compose run --no-deps web rails new . --force --database=postgresql --api`
+- `$ docker compose run --no-deps web rails new . --force --database=postgresql`
   - → ファイルが生成される
 - `$ docker compose build`
 - `config/database.yml`の`encoding: unicode`の直下に以下を追記
