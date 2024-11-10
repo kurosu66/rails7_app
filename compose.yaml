@@ -1,6 +1,6 @@
 services:
   db:
-    image: postgres
+    image: postgres:16
     # dbのユーザー名とパスワードでこれが無いとdbが起動できなかった
     environment:
       POSTGRES_USER: postgres
