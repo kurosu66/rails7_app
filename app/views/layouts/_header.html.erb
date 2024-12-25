@@ -2,7 +2,16 @@
   <div class="container">
     <%= link_to "sample app", root_path, id: "logo" %>
     <nav>
-      <ul class="nav navbar-nav navbar-right">
+      <div class="navbar-header">
+        <button id="hamburger" type="button" class="navbar-toggle collapsed">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <ul id="navbar-menu"
+          class="nav navbar-nav navbar-right collapse navbar-collapse">
         <li><%= link_to "Home",    root_path %></li>
         <li><%= link_to "Help",    help_path %></li>
         <% if logged_in? %>
