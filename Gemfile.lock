@@ -89,6 +89,8 @@ GEM
     bootstrap-sass (3.4.1)
       autoprefixer-rails (>= 5.2.1)
       sassc (>= 2.0.0)
+    bootstrap-will_paginate (1.0.0)
+      will_paginate
     builder (3.3.0)
     capybara (3.40.0)
       addressable
@@ -112,6 +114,8 @@ GEM
     e2mmap (0.1.0)
     erubi (1.13.1)
     execjs (2.10.0)
+    faker (2.21.0)
+      i18n (>= 1.8.11, < 2)
     ffi (1.17.1-aarch64-linux-gnu)
     ffi (1.17.1-aarch64-linux-musl)
     ffi (1.17.1-arm-linux-gnu)
@@ -364,6 +368,7 @@ GEM
     websocket-driver (0.7.6)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
+    will_paginate (3.3.1)
     xpath (3.2.0)
       nokogiri (~> 1.8)
     yard (0.9.37)
@@ -383,8 +388,10 @@ DEPENDENCIES
   bcrypt (~> 3.1.0)
   bootsnap
   bootstrap-sass (~> 3.4.0)
+  bootstrap-will_paginate (= 1.0.0)
   capybara
   debug
+  faker (= 2.21.0)
   guard (~> 2.18.0)
   guard-minitest (~> 2.4.6)
   importmap-rails
@@ -406,6 +413,7 @@ DEPENDENCIES
   tzinfo-data
   web-console
   webdrivers (~> 5.2.0)
+  will_paginate (= 3.3.1)
 
 RUBY VERSION
    ruby 3.3.6p108
